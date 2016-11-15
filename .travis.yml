@@ -13,6 +13,6 @@ addons:
     packages:
       - g++-4.8
 before_script:
-  - npm install -g yarn --cache-min 999999999
+  - npm install -g yarn
 install:
   - yarn
