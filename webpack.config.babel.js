@@ -5,7 +5,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const config = {
 	entry: {
-		main: './src/index'
+		main: ['./src/index.js', './src/index.css']
 	},
 	output: {
 		path: resolve(__dirname, './dist'),
@@ -23,6 +23,10 @@ const config = {
 				test: /\.jsx?$/,
 				loader: 'babel-loader',
 				exclude: [/node_module/]
+			},
+			{
+				test:/\.css?$/,
+				loaders: ['style','css']
 			}
 		]
 	},
