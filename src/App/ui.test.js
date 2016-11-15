@@ -1,5 +1,5 @@
 const React = require('react');
-const App = require('./');
+const App = require('./').default;
 const { shallow } = require('enzyme');
 const { shallowToJson } = require('enzyme-to-json');
 
