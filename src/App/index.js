@@ -3,9 +3,12 @@ import React from 'react';
 const PULSE_LABZ = 'PULSE-labz';
 
 export default class App extends React.Component {
-	state = {
-		title: PULSE_LABZ,
-	};
+	constructor() {
+		super();
+		this.state = {
+			title: PULSE_LABZ,
+		};
+	}
 
 	componentDidMount() {
 		setInterval(() => {
@@ -19,7 +22,7 @@ export default class App extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div onClick={() => this.setState({title: 'GOING LIVE'})}>
 				<span>
 					<i>{this.state.title}</i>
 				</span>

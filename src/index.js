@@ -4,5 +4,5 @@ import App from './App';
 
 ReactDOM.render(
 	<App />,
-	window.document.querySelector('#app')
+	document.querySelector('#app')
 );
