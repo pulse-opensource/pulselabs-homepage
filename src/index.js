@@ -1,3 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-console.log(React.Component);
+ReactDOM.render(
+	<App />,
+	window.document.querySelector('#app')
+);
