@@ -1,10 +1,5 @@
 exports[`AppUI renders the expected UI 1`] = `
-<div
-  onClick={[Function]}>
-  <span>
-    <i>
-      PULSE-labz
-    </i>
-  </span>
+<div>
+  <Navigation />
 </div>
 `;
