@@ -1,0 +1,22 @@
+.pulseNavContainer {
+	width: 100%;
+	height: 2rem;
+	background: orange;
+	line-height: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pulseNavContainer > b {
+	margin-left: 1rem;
+}
+
+.pulseNav {
+	margin-right: 1rem;
+	display: flex;
+	flex-grow: 0.4;
+}
+
+.pulseNav a {
+	flex: 1;
+}
