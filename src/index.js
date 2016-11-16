@@ -16,5 +16,5 @@ ReactDOM.render(
 			<Route path="oss" component={OSS} />
 		</Route>
 	</Router>,
-	document.querySelector('#app')
+	document.getElementById('app')
 );
