@@ -1,4 +1,5 @@
 import './globals.css';
+import { body } from './style.css';
 import React from 'react';
 import Navigation from './Navigation';
 
@@ -9,7 +10,9 @@ export default class App extends React.Component {
 		return (
 			<div>
 				<Navigation />
-				{this.props.children}
+				<div className={body}>
+					{this.props.children}
+				</div>
 			</div>
 		);
 	}
