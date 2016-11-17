@@ -1,0 +1,28 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+
+	background: #FCFFFD;
+}
+
+p {
+	letter-spacing: 1.1px;
+	word-spacing: 1.5px;
+	font-size: 12px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin: 2rem 0;
+}
+
+
+p > div {
+	margin-top: 0.5rem;
+	text-indent: 1rem;
+}
+
+h1 {
+	color: #232825;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin: 0;
+}
