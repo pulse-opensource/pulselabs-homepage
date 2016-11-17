@@ -4,7 +4,6 @@ import style from './style.css';
 export default function() {
 	return (
 		<div>
-			<h1>Perf Problems? Pulselabs.it!</h1>
 			<p>
 				<div>
 					Hi boys. I'm Tina. Please don't tell Mom and Dad. So I think I'm being attacked by zombies and I start screaming, 'Do you wanna make out?' And I make out with it. I'm out of control. Everything I know to be true just went out the

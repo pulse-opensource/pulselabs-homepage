@@ -4,7 +4,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 
-	background: #F2FFF9;
+	background: #FCFFFD;
 }
 
 p {
@@ -22,6 +22,7 @@ p > div {
 }
 
 h1 {
-	color: #004731;
+	color: #232825;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin: 0;
 }

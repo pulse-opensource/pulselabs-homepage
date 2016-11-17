@@ -1,17 +1,21 @@
 .pulseNavContainer {
 	width: 100%;
 	height: 6rem;
-	background: #009165;
+	background: #373F3A;
 	line-height: 6rem;
 	display: flex;
 	justify-content: space-between;
-	color: #F2C13A;
+}
+
+.pulseNavContainer > b > svg {
+	fill: #9594E8;
 }
 
 .pulseNavContainer > b {
 	margin-left: 1rem;
 	font-size: 2rem;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: #9594E8;
 }
 
 .pulseNav {
@@ -33,6 +37,7 @@
 	color: #E1EFE6 !important;
 }
 
+.pulseNav a,
 .pulseNav a:visited {
-	color: #000411;
+	color: #fff;
 }
