@@ -11,7 +11,8 @@
     "build": "npm run webpack -- --colors --verbose --bail",
     "lint": "npm run eslint",
     "eslint": "eslint src",
-    "start": "node server"
+    "start": "npm run webpack && node server",
+    "start:server": "node server"
   },
   "repository": {
     "type": "git",

@@ -16,17 +16,32 @@ const FILES = [
     relPath: '/main.chunk.js',
     absPath: '/dist/main.chunk.js',
   },
+  {
+    headers: 'text/css',
+    relPath: '/style.css',
+    absPath: '/dist/style.css',
+  },
 ];
 
 const onRequest = (request, response) => {
   if (!response.push) return;
+  // if (request.url !== '/') return;
 
   FILES.forEach(file => {
     const push = response.push(file.relPath);
 
+    push.stream.on('end', () => {
+      push.stream.removeAllListeners();
+    });
+
+    push.stream.on('error', err => {
+      push.stream.removeAllListeners();
+    });
+
     push.writeHead(200, file.headers);
 
-    fs.createReadStream(path.join(__dirname, file.absPath)).pipe(push);
+    fs.createReadStream(path.join(__dirname, file.absPath))
+      .pipe(push);
   });
   
   response.end(indexHTML);
