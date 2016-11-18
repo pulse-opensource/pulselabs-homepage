@@ -1,3 +1,4 @@
+import { AppContainer } from 'react-hot-loader';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -7,7 +8,8 @@ import Home from './Home';
 import OSS from './OSS';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-ReactDOM.render(
+export const AppShell = (
+  <AppContainer>
 	<Router history={browserHistory}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
@@ -15,6 +17,12 @@ ReactDOM.render(
 			<Route path="contact" component={Contact} />
 			<Route path="oss" component={OSS} />
 		</Route>
-	</Router>,
-	document.getElementById('app')
+	</Router>
+  </AppContainer>
 );
+
+ReactDOM.render(AppShell, document.getElementById('app'));
+
+if (module.hot) {
+	module.hot.accept();
+}

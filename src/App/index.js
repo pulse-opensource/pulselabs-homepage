@@ -3,7 +3,7 @@ import { body, header } from './style.css';
 import React from 'react';
 import Navigation from './Navigation';
 
-const PULSE_LABZ = 'PULSE-labz';
+const PULSE_LABZ = 'PULSE-labzs';
 
 export default class App extends React.Component {
 	render() {

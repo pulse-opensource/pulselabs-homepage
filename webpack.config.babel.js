@@ -1,49 +1,46 @@
 import {join, resolve} from 'path';
 import webpack, {ProgressPlugin} from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import webpackMerge from 'webpack-merge';
 
-const config = {
-	entry: {
-		main: './src/index'
-	},
-	output: {
-		path: resolve(__dirname, './dist'),
-		filename: '[name].chunk.js'
-	},
-	resolve: {
-		alias: {
-			"react": "preact-compat",
-			"react-dom": "preact-compat"
-		}
-	},
-	module: {
-		rules: [
-			{
-				test: /\.js?$/,
-				loader: 'babel-loader',
-				exclude: [/node_module/]
-			},
-			{
-				test: /\.css?$/,
-				loader: ExtractTextPlugin.extract({
-					fallbackLoader: 'style-loader',
-					loader: 'css-loader?modules',
-				}),
-			}
+export default env => {
+	let config = {
+		entry: {
+			main: './src/index.js'
+		},
+		output: {
+			path: resolve(__dirname, './dist'),
+			filename: '[name].chunk.js'
+		},
+		module: {
+			rules: [
+				{
+					test:/\.css?$/,
+					loaders: [
+						'style-loader',
+						{loader: 'css-loader', options: {modules: true}},
+						'postcss-loader'
+					]
+				}
+			]
+		},
+		plugins: [
+			new ProgressPlugin(),
+			new HtmlWebpackPlugin({
+				template: './src/index.html'
+			})
 		]
-	},
-	plugins: [
-		new ExtractTextPlugin({filename: 'style.css', allChunks: true }),
-		new ProgressPlugin(),
-		new HtmlWebpackPlugin({
-			template: './src/index.html'
-		})
-	],
+	};
 
-	devServer: {
-		historyApiFallback: true,
+	const ENV = env;
+
+	if (ENV === "development") {
+		config = webpackMerge(config, require('./build_config/webpack-dev-config.babel.js'));		
 	}
-};
 
-export default config;
+	if (ENV === "production") {
+		config = webpackMerge(config, require('./build_config/webpack-prod-config.babel.js'));
+	}
+	
+	return config;
+}
