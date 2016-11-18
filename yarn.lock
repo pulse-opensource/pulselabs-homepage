@@ -4710,7 +4710,6 @@ react-dom@^15.3.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-<<<<<<< HEAD
 react-hot-loader@^3.0.0-beta.6:
   version "3.0.0-beta.6"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-3.0.0-beta.6.tgz#463fac0bfc8b63a8385258af20c91636abce75f4"
@@ -4729,9 +4728,6 @@ react-proxy@^3.0.0-alpha.0:
     lodash "^4.6.1"
 
 react-router@^3.0.0:
-=======
-react-router:
->>>>>>> master
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-3.0.0.tgz#3f313e4dbaf57048c48dd0a8c3cac24d93667dff"
   dependencies:
