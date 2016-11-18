@@ -11,7 +11,7 @@ export default class App extends React.Component {
 			<div>
 				<Navigation />
 				<div className={header}>
-					<h1>Perf Problemss? Pulselabs.it!</h1>
+					<h1>Perf Problems? Pulselabs.it!</h1>
 				</div>
 				<div className={body}>
 					{this.props.children}
