@@ -4,7 +4,7 @@ import {resolve} from 'path';
 let devConfig = {
 	entry: {
 		main: [
-			'./src/index.js'
+			'react-hot-loader/patch','./src/index.js'
 		]
 	},
 	module: {

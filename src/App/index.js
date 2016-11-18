@@ -1,31 +1,21 @@
+import './globals.css';
+import { body, header } from './style.css';
 import React from 'react';
+import Navigation from './Navigation';
 
 const PULSE_LABZ = 'PULSE-labzs';
 
 export default class App extends React.Component {
-	constructor() {
-		super();
-		this.state = {
-			title: PULSE_LABZ
-		};
-	}
-
-	componentDidMount() {
-		setInterval(() => {
-			const title = this.state.title === ''
-			  ? PULSE_LABZ
-			  : '';
-			this.setState({title})
-		}, 300);
-	}
-	
 	render() {
 		return (
-			<div onClick={() => this.setState({title: 'GOING LIVE'})}>
-				<span>
-					<i>{this.state.title}</i>
-				</span>
-				<h1>HOT UPDATES</h1>
+			<div>
+				<Navigation />
+				<div className={header}>
+					<h1>Perf Problemss? Pulselabs.it!</h1>
+				</div>
+				<div className={body}>
+					{this.props.children}
+				</div>
 			</div>
 		);
 	}

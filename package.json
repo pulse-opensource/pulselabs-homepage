@@ -61,6 +61,9 @@
     "webpack-merge": "^0.17.0"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "node_modules/jest-enzyme/lib/index.js"
+    "setupTestFrameworkScriptFile": "node_modules/jest-enzyme/lib/index.js",
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/src/__mocks__/styleMock.js"
+    }
   }
 }
