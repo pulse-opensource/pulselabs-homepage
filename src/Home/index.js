@@ -5,20 +5,20 @@ export default function() {
 	return (
 		<div>
 			<p>
-				<div>
+				<p>
 					Hi boys. I'm Tina. Please don't tell Mom and Dad. So I think I'm being attacked by zombies and I start screaming, 'Do you wanna make out?' And I make out with it. I'm out of control. Everything I know to be true just went out the
 					window. This is such a snore-gasm. I guess she doesn't like wearing clothes. Just when I think I'm out, those cheeks pull me right back in. Argh!... Wait, I like the library.
-				</div>
+				</p>
 
-				<div>
+				<p>
 					Your ass is grass and I'm gonna mow it. I need to find a boy with a turtle bite on his finger. Our toaster is also confused. It doesn't know where bagels go. I'm no hero. I just put my bra on one boob at a time. Dr. Yap is dreamy.
 					When he's looking at my molars, it's like he's looking into my soul. I guess she doesn't like wearing clothes. YOU GORGEOUS IDIOT! And I'm gonna read it to the whole school myself.
-				</div>
+				</p>
 
-				<div>
+				<p>
 					The hand wants what the hand wants. If I were a hamburger you'd come and watch! Drop the towel. Drop the towel. Gene, you saved us. I owe you my life. If I drunk text you and you're asleep, don't text me in the morning…that ship has
 					sailed. Follow me fellas...Lets go somewhere where the sixteen of us can be alone. Gene, you saved us. I owe you my life.
-				</div>
+				</p>
 			</p>
 
 
@@ -41,7 +41,7 @@ export default function() {
 			</div>
 
 			<p>
-				<div>
+				<p>
 					Meowzer! sniff other cat's butt and hang jaw half open thereafter get video posted to internet for chasing red dot. Stick butt in face steal the warm chair right after you get up sit and stare and hide from vacuum cleaner. Present
 					belly, scratch hand when stroked hunt by meowing loudly at 5am next to human slave food dispenser scratch the furniture. Sit and stare stand in front of the computer screen. Why must they do that eat from dog's food. Kitty loves pigs
 					give attitude, peer out window, chatter at birds, lure them to mouth for climb leg, shake treat bag scratch the box. Pee in the shoe destroy couch, eat a plant, kill a hand. Groom yourself 4 hours - checked, have your beauty sleep 18
@@ -56,9 +56,9 @@ export default function() {
 					your human's bed and fall asleep again scratch leg; meow for can opener to feed me. Leave dead animals as gifts throwup on your pillow, for attack dog, run away and pretend to be victim. Toy mouse squeak roll over climb a tree, wait
 					for a fireman jump to fireman then scratch his face but and sometimes switches in french and say "miaou" just because well why not for sleep nap so tuxedo cats always looking dapper chase the pig around the house but touch water with
 					paw then recoil in horror.
-				</div>
+				</p>
 
-				<div>
+				<p>
 						Stares at human while pushing stuff off a table scratch the box yet jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass finds tiny spot
 					in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not like water yet go into a room to
 					decide you didn't want to be in there anyway sit in box. Steal the warm chair right after you get up. Stare at ceiling. And sometimes switches in french and say "miaou" just because well why not eat all the power cords and swat turds
@@ -74,15 +74,15 @@ export default function() {
 					a present behind the couch, or scream at teh bath. Stick butt in face sit in box so meow damn that dog , my left donut is missing, as is my right meow to be let out. Soft kitty warm kitty little ball of furr massacre a bird in the
 					living room and then look like the cutest and most innocent animal on the planet, when in doubt, wash. Hiss at vacuum cleaner sit by the fire or when in doubt, wash find empty spot in cupboard and sleep all day yet cats go for world
 					domination but put butt in owner's face.
-				</div>
+				</p>
 
-				<div>
+				<p>
 					Rub whiskers on bare skin act innocent rub whiskers on bare skin act innocent purrr purr littel cat, little cat purr purr. Find empty spot in cupboard and sleep all day refuse to leave cardboard box or why must they do that, purr
 					while eating chase the pig around the house. Meowwww thug cat stand in front of the computer screen. Meow for food, then when human fills food dish, take a few bites of food and continue meowing cats secretly make all the worlds
 					muffins. Find something else more interesting sniff other cat's butt and hang jaw half open thereafter but plan steps for world domination scream at teh bath but sleep on keyboard, but lick the other cats. Present belly, scratch hand
 					when stroked climb leg, yet lick arm hair hack up furballs thug cat . Mark territory tuxedo cats always looking dapper. Licks your face. Sit in window and stare ooo, a bird! yum unwrap toilet paper put toy mouse in food bowl run out
 					of litter box at full speed . Make muffins. Kitty scratches couch bad kitty hunt anything that moves.
-				</div>
+				</p>
 			</p>
 
 		</div>

@@ -35,12 +35,12 @@ export default env => {
 	const ENV = env;
 
 	if (ENV === "development") {
-		config = webpackMerge(config, require('./build_config/webpack-dev-config.babel.js'));		
+		config = webpackMerge(config, require('./build_config/webpack-dev-config.babel.js'));
 	}
 
 	if (ENV === "production") {
 		config = webpackMerge(config, require('./build_config/webpack-prod-config.babel.js'));
 	}
-	
+
 	return config;
 }

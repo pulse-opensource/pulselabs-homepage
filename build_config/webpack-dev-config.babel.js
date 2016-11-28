@@ -1,4 +1,4 @@
-import webpack from 'webpack'; 
+import webpack from 'webpack';
 import {resolve} from 'path';
 
 let devConfig = {
@@ -30,7 +30,10 @@ let devConfig = {
 	},
 	plugins: [
 		new webpack.NamedModulesPlugin()
-	]
-}
+	],
+  devServer: {
+    historyApiFallback: true,
+  },
+};
 
 export default devConfig;
