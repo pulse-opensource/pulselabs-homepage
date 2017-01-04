@@ -4,13 +4,11 @@ html, body {
 	height: 100%;
 	width: 100%;
 
-	background: #FCFFFD;
+	background: #fafafa;
 }
 
 p {
-	letter-spacing: 1.1px;
-	word-spacing: 1.5px;
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	margin: 2rem 0;
 }
@@ -23,7 +21,7 @@ p > p {
 }
 
 h1 {
-	color: #232825;
+	color: #f1f2eb;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	margin: 0;
 }
