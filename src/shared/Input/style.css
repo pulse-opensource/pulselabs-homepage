@@ -1,0 +1,21 @@
+.inputWrapper {
+  width: 100%;
+  border-bottom: 2px solid #ff6600;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.inputWrapper label {
+  font-family: 'Open Sans Condensed';
+  color: #ff6600;
+}
+
+.inputWrapper input {
+  flex: 1;
+  font-size: 1rem;
+  font-family: 'Open Sans Condensed';
+  border: none;
+  background: none;
+  padding-left: 0.5rem;
+  outline: none;
+}

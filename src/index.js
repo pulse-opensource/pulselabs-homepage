@@ -6,11 +6,11 @@ import Contact from './Contact';
 import Home from './Home';
 import OSS from './OSS';
 import BrowserRouter from 'react-router/BrowserRouter';
-import style from './style.css';
 import Header from './shared/Header';
 import Match from 'react-router/Match';
 import './globals.css';
 import Navigation from './shared/Navigation';
+import Footer from './shared/Footer';
 
 const AppShell = (
   <AppContainer>
@@ -23,6 +23,8 @@ const AppShell = (
         <Match pattern="/about" component={About} />
         <Match pattern="/contact" component={Contact} />
         <Match pattern="/oss" component={OSS} />
+
+        <Footer />
       </div>
     </BrowserRouter>
   </AppContainer>

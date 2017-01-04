@@ -1,5 +1,6 @@
 .homeHeader {
   padding: 30vh 0 0 0;
+  height: 90vh;
   text-align: center;
   /* IE10+ */
   background-image: -ms-linear-gradient(top left, #1C7293 0%, #1C7293 50%, #B0CED6 100%, #B0CED6 60%);
@@ -22,7 +23,6 @@
 
 .contactHeader {
   padding: 30vh 0 0 0;
-  height: 20vh;
   text-align: center;
   /* IE10+ */
   background-image: -ms-linear-gradient(top left, #1C7293 0%, #1C7293 50%, #031216 100%, #031216 60%);
@@ -45,7 +45,6 @@
 
 .aboutHeader {
   padding: 30vh 0 0 0;
-  height: 30vh;
   text-align: center;
   /* IE10+ */
   background-image: -ms-linear-gradient(top left, #1C7293 0%, #1C7293 50%, #11c4f4 100%, #11c4f4 60%);

@@ -13,26 +13,16 @@
 	display: flex;
 }
 
-.pulseNav a {
-	text-decoration: none;
-	transition: color .2s;
-	text-transform: uppercase;
-  font-family: Tahoma, Geneva, sans-serif;
-  height: 2rem;
-}
-
 .pulseNav span {
   color: #f1f2eb;
   margin: 0 1rem;
 }
 
-
 .pulseNav a:hover {
-	color: #fff !important;
   border-bottom: solid 3px #fff;
 }
 
-.pulseNav a,
-.pulseNav a:visited {
-	color: #f1f2eb;
+.pulseNav a {
+	text-transform: uppercase;
+  font-family: Tahoma, Geneva, sans-serif;
 }
